@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 173, 123);
+}
+
+div {
+  border: 3px solid white;
+  font-size: 15;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  color: rgb(189, 228, 90);
+}
+.box1 {
+  width: 500px;
+  padding: 2rem;
+}
+.box1 img {
+  width: 100%;
+}
+.background-image {
+  background-image: url("https://cg2.cgsociety.org/uploads/images/large/sameerbaloch-red-tree-1-0f3aea89-ux1j.jpg");
+  background-position: center;
+}
+.box2 {
+  width: 500px;
+  padding: 1.5rem;
+  /* background-size: contain; */
+}
+.box3 {
+  padding: 1em;
+  width: 600px;
+}

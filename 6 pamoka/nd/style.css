@@ -1,0 +1,29 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+header {margin-left: 250px;}
+header > h4 {
+    display: inline;
+}
+
+aside {
+    position: absolute;
+    background-color: rgb(6, 6, 6);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    padding: 1rem;
+    width: 200px;
+}
+.grey {
+    color: gray;
+}
+aside > ul li::marker {
+    color: red;
+}
+
+aside > ul > li not (:first-child)::marker {
+    color: transparent;
+}

@@ -1,0 +1,80 @@
+header {
+    
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+body 
+{background: black;}
+.blue {
+    height: 10rem;
+    color: #068cd5;
+}
+.yellow {
+    height: 10rem;
+    color: hsl(56, 100%, 50%);
+}
+.box1 {
+
+    background: #1bc56d;
+    color: white
+}
+.box2 {
+   background: #eab71d;
+   color: white;
+}
+.box3 {
+    background: red;
+    color: #ffffff;
+}
+.container {    width: 80%;
+    text-align: center;
+    color: rgb(190, 185, 185);
+    padding: 0 0 8rem 0;}
+
+img {
+    width: 70%;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+}
+div {
+   text-align: center; 
+}
+h3 {
+    color: red;
+    font-style: none;
+    text-align: center;
+}
+
+table {
+
+}
+th {
+    height: 2rem;
+    background: black;
+}
+
+tr {
+    text-align: center;
+    background: #575656;
+    height: 2rem;
+    
+}
+
+td {
+    height: 2rem;
+}
+img.sq {
+   
+    width: 3rem;
+}
+/*Background-color of the odd rows*/
+tr:nth-of-type(odd) {
+    background: #434242;}
+/*Background-color of the even rows*/
+tr:nth-of-type(even) {
+    background: rgb(50, 49, 49);}
+
+td:first-of-type {color: red;}

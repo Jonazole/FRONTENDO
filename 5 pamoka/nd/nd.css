@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(209, 207, 207);
+}
+header {
+    background-color: white;
+    border-radius: 0.5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.76);
+    margin: 2rem auto;
+    text-align: center;
+    padding: 10rem;
+    width: 50%;
+}
+header img {
+    height: 15rem;
+}
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 10px 10px;
+}

@@ -1,0 +1,23 @@
+table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+.orange {
+    background: rgb(241, 170, 40);
+}
+.blue {
+    background: rgb(14, 207, 241);
+}
+.green {
+    background: rgb(15, 235, 15);
+}
+
+.white-text {
+    color: white;
+}

@@ -1,0 +1,33 @@
+aside {
+    position: absolute;
+    background-color: #24242c;
+}
+
+body {
+    background: #25481d;
+    padding: 10%;
+}
+
+
+.white {
+    color: rgb(240, 159, 206);
+}
+table,
+th, td {
+    border: 2px solid rgb(232, 27, 171);
+    border-collapse: collapse;
+
+}
+table {
+    width: 100%;
+}
+td {
+    padding: 10px;
+    text-align: center;
+
+}
+td:last-child,
+tr:last-child {
+    text-align: right;
+    font-weight: bold;
+}

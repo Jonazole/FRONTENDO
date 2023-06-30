@@ -1,0 +1,25 @@
+p {
+    color: brown;
+}
+
+p:hover {
+    color: blue;
+    background: wheat;
+}
+
+input:required {
+    width:  200px;
+}
+a:active {
+    color: red;
+}
+
+a:link  {
+    color: aqua;
+}
+a:visited {
+    background: lavender;
+}
+.number-input:in-range {
+    background-color: green;
+}

@@ -1,0 +1,18 @@
+p:first-child {
+    font-size: 2rem;
+}:nth-child(3) {
+    background: aqua;
+}
+p:only-child {
+    background: rgb(205, 184, 50);
+}
+a:first-of-type {
+    text-decoration: none;
+}
+button:active {
+background-color: rgb(72, 240, 72);
+}
+button:hover
+{
+    color: rgb(255, 42, 0);
+}
