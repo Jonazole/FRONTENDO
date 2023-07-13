@@ -1,0 +1,14 @@
+html {
+    background-color: #e7e7e7;
+    color: #808080;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 60%;
+}
+.grid-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}

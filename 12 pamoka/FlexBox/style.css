@@ -1,3 +1,7 @@
+:root {
+    --blue-violet: #645cff;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,11 +16,14 @@ html {
 }
 body {
    width:  95% ;
+   border: #645cff;
 }
 .header {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
     
 }
 .flex-container {
@@ -25,6 +32,7 @@ body {
     justify-content: space-between;
 
 }
+
 
 .blue {
     color: hwb(240 42% 10%);
@@ -45,16 +53,30 @@ ul{
 
     width: 100%;
     display: flex;
+
     justify-content: center;
     padding-top: 3rem ;
-   
-    box-shadow: 0 1px 3px 0 rgba (0, 0, 0 0.1);
 
-    background-color: hsl(204, 100%, 97%);
+   
+    box-shadow: 0 1px 3px 0 rgba (0, 0, 0 0.1), 
+
+    background-color: hsl(204, 100%, 97%); 
 }
 
 .box {
+    display: flex;
+
     padding-top: 1rem ;
     background-color:white;
     
+}
+.primary-rext-color {
+    color: var(--blue-violet);
+}
+
+header ul li i {
+    color: var(--blue-violet);
+}
+.tasks {
+    color: red;
 }

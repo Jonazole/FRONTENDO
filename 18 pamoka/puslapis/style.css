@@ -1,0 +1,67 @@
+@media screen and (max-width: 700px)
+{
+    :root {
+        --blue-violet: #645cff;
+        --blue-violet-darker: #4d47ca;
+      }
+      
+      html {
+        font-family: "Roboto", sans-serif;
+      }
+      
+      header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        align-items: center;    
+      }
+    
+      header ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+      }
+    
+      .primary-text-color {
+        color: var(--blue-violet);
+      }
+
+      header ul li i {
+        color: var(--blue-violet);
+        font-size: 20px;
+      }
+
+      .edit-container {
+        display: flex;
+        flex-direction: column;
+        background-color: #645cff;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30rex;
+        padding-bottom: 40rex;
+        padding-left: 5rex;
+        padding-right: 5rex;
+        margin: 0%;
+        height: ;
+        text-align: justify center;
+
+      }
+
+      .max {
+        font-size: 5rex;
+        margin: 0%;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      button {
+        height: 40px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        width: 160px;
+        background-color: #645cff;
+        color: white;
+      }
+}
